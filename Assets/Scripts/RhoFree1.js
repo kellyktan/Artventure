@@ -53,11 +53,10 @@ function Update () {
 	} else if (Input.GetKey(up)) {
 		rigidbody2D.velocity.y = speed;
 	} else if (Input.GetKey(right)) {
-		Hurt();
 		rigidbody2D.velocity.x = speed;
 	} else if (Input.GetKey(down)) {
 		rigidbody2D.velocity.y = -speed;
-	}else if (Input.GetKey(left)) {
+	} else if (Input.GetKey(left)) {
 		rigidbody2D.velocity.x = -speed;
 	} else {
 		rigidbody2D.velocity.x = 0;
