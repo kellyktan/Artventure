@@ -40,7 +40,6 @@ function Update () {
 			if (facingRight) {
 				var pixelInst : Rigidbody2D = Instantiate(attack, transform.position + offsetRight, Quaternion.Euler(new Vector3(0,0,0)));
 				pixelInst.velocity = new Vector2(speed, 0);
-
 			} else {
 				pixelInst = Instantiate(attack, transform.position + offsetLeft, Quaternion.Euler(new Vector3(0,0,180f)));
 				pixelInst.velocity = new Vector2(-speed, 0);
@@ -51,7 +50,6 @@ function Update () {
 	} else if (Input.GetKey(up)) {
 		rigidbody2D.velocity.y = speed;
 	} else if (Input.GetKey(right)) {
-		Hurt();
 		rigidbody2D.velocity.x = speed;
 	} else if (Input.GetKey(down)) {
 		rigidbody2D.velocity.y = -speed;

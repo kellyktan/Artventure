@@ -42,7 +42,6 @@ function Update () {
 			if (facingRight) {
 				var pixelInst : Rigidbody2D = Instantiate(attack, transform.position + offsetRight, Quaternion.Euler(new Vector3(0,0,0)));
 				pixelInst.velocity = new Vector2(speed, 0);
-
 			} else {
 				pixelInst = Instantiate(attack, transform.position + offsetLeft, Quaternion.Euler(new Vector3(0,0,180f)));
 				pixelInst.velocity = new Vector2(-speed, 0);

@@ -1,13 +1,6 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RhoFree1.js">
-    <Files>
-      <File FileName="Assets/Scripts/RhoFree2.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/RhoFree1.js" Line="56" Column="1" />
-      <File FileName="Assets/Scripts/RhoFree.js" Line="26" Column="20" />
-      <File FileName="Assets/Scripts/Title.js" Line="2" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
